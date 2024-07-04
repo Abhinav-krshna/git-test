@@ -41,6 +41,9 @@
                             <constraint firstItem="eYS-V7-Mjy" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="44" id="x8J-UC-IsM"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="newTextField" destination="eYS-V7-Mjy" id="UmL-ay-Ydi"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
