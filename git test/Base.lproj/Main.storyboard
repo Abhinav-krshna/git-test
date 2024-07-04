@@ -30,12 +30,28 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="p8F-vF-hDL">
+                                <rect key="frame" x="44" y="444" width="300" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="aDC-ew-sTS"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U8s-ZY-6sK">
+                                <rect key="frame" x="170" y="578" width="49" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.34901960780000002" blue="0.035294117649999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Submit"/>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="Lcx-Ed-wVt" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="172" id="6QN-EV-9PR"/>
                             <constraint firstItem="eYS-V7-Mjy" firstAttribute="top" secondItem="Lcx-Ed-wVt" secondAttribute="bottom" constant="224" id="Kcf-kc-dm4"/>
+                            <constraint firstItem="p8F-vF-hDL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="44" id="XP5-HT-yvw"/>
+                            <constraint firstItem="p8F-vF-hDL" firstAttribute="top" secondItem="eYS-V7-Mjy" secondAttribute="bottom" constant="30" id="Xta-gF-aKa"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Lcx-Ed-wVt" secondAttribute="trailing" constant="172" id="ZZO-ig-pLT"/>
                             <constraint firstItem="Lcx-Ed-wVt" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="86" id="poA-nw-ko2"/>
                             <constraint firstItem="eYS-V7-Mjy" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="44" id="x8J-UC-IsM"/>
